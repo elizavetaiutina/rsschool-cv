@@ -1,0 +1,8 @@
+.project__item {
+  border: 1px solid black;
+  display: flex;
+  gap: 50px;
+  margin: 0;
+  padding: 30px;
+  box-sizing: border-box;
+}
