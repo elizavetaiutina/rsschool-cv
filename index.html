@@ -4,7 +4,177 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Liza Iutina</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="icon" href="./images/icone.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body class="root">
+    <div class="content">
+      <header class="header">
+        <nav>
+          <ul class="header__menu">
+            <li><a href="#about-me" class="header__link">ABOUT ME</a></li>
+            <li><a href="#contacts" class="header__link">CONTACTS</a></li>
+            <li><a href="#education" class="header__link">EDUCATION</a></li>
+            <li><a href="#skills" class="header__link">SKILLS</a></li>
+            <li><a href="#project" class="header__link">PROJECTS</a></li>
+            <li><a href="#code" class="header__link">CODE</a></li>
+            <li><a href="#language" class="header__link">LANGUAGE</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <section class="intro">
+          <div class="intro__description">
+            <p class="intro__text">Welcome To My PortFolio</p>
+            <h1 class="intro__title">
+              Hi , I am Liza Iutina
+              <span class="intro__title_color_yellow">Frontend</span> developer
+            </h1>
+          </div>
+          <img src="./images/avatar.jpeg" alt="Аватар" class="intro__avatar" />
+        </section>
+        <section class="section" id="about-me">
+          <h2 class="section__title">ABOUT ME</h2>
+          <p class="section__text">
+            I am a begginer frontend developer. I am currently studying JavaScript. I want to gain
+            knowledge and skills that will be enough for employment in the company.
+          </p>
+        </section>
+        <section class="section" id="contacts">
+          <h2 class="section__title">CONTACTS</h2>
+          <ul class="section__list">
+            <li>Phone: +7 987 295 03 71</li>
+            <li>E-mail: iutinaelizaveta@yandex.ru</li>
+            <li>Telegram: @lizaiutina</li>
+          </ul>
+        </section>
+        <section class="section" id="education">
+          <h2 class="section__title">EDUCATION</h2>
+          <ul class="section__list">
+            <li class="section__text_color_blue">Kazan National Research Technical University</li>
+            <li>2015/2019 Quality management</li>
+            <li class="section__text_color_blue">ITMO University</li>
+            <li>2019/2021 Quality management</li>
+          </ul>
+        </section>
+        <section class="section">
+          <h2 class="section__title">COURSES</h2>
+          <ul class="section__list">
+            <li>Yandex Practicum Web developer 2022 (in progress)</li>
+            <li>HTML Academy</li>
+            <li>JavaScript Manual on learnjavascript.ru (in progress)</li>
+            <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+          </ul>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section__title">SKILLS</h2>
+          <ul class="section__list">
+            <li>HTML, CSS (BEM methodology)</li>
+            <li>JavaScript Basics</li>
+            <li>Git, GitHub</li>
+            <li>Figma(for web development)</li>
+          </ul>
+        </section>
+        <section class="section project" id="project">
+          <h2 class="section__title">PROJECTS</h2>
+          <div class="project">
+            <ul class="project__list">
+              <li class="project__item">
+                <img src="./images/mesto.png" alt="Mesto" class="project__image" />
+                <div class="project__description">
+                  <h3 class="project__name">MESTO</h3>
+                  <p class="project__text">
+                    HTML, CSS, JS <br />Adaptive one-page Mesto service website: interactive page.
+                    You can put likes on photos, add and delete photos.
+                  </p>
+                  <a href="https://elizavetaiutina.github.io/mesto/" class="project__link"
+                    >See project</a
+                  >
+                </div>
+              </li>
+              <li class="project__item">
+                <img
+                  src="./images/russian-travel.png"
+                  alt="Russian Travel"
+                  class="project__image"
+                />
+                <div class="project__description">
+                  <h3 class="project__name">Russian Travel</h3>
+                  <p class="project__text">
+                    HTML, CSS <br />
+                    Adaptive one-page website. Flexbox layout, Grid layout, a file structure has
+                    been created according to the BEM nested methodology.
+                  </p>
+                  <a href="https://elizavetaiutina.github.io/russian-travel/" class="project__link"
+                    >See project</a
+                  >
+                </div>
+              </li>
+              <li class="project__item">
+                <img src="./images/bikes.png" alt="Bikes" class="project__image" />
+                <div class="project__description">
+                  <h3 class="project__name">BIKES</h3>
+                  <p class="project__text">
+                    HTML, CSS <br />
+                    Adaptive one-page website. Flexbox layout, Grid layout, a file structure has
+                    been created according to the BEM nested methodology.
+                  </p>
+                  <a href="https://elizavetaiutina.github.io/bikes/" class="project__link"
+                    >See project</a
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="section" id="code">
+          <h2 class="section__title">CODE</h2>
+          <div class="section__code">
+            <code class="section__text">
+              &lt;<br />function handleClosePopupEscape(event) { <br />
+              if (event.key === "Escape") {<br />
+              const popup = document.querySelector(".pop-up_opened");<br />
+              closePopup(popup);<br />
+              }<br />
+              const closePopup = (popup) => {<br />
+              popup.classList.remove("pop-up_opened");<br />
+              document.removeEventListener("keydown", handleClosePopupEscape);<br />
+              };<br />
+              &gt;
+            </code>
+          </div>
+        </section>
+        <section class="section" id="language">
+          <h2 class="section__title">LANGUAGE</h2>
+          <ul class="section__list">
+            <li>Russian - Native</li>
+            <li>English - A2</li>
+          </ul>
+        </section>
+      </main>
+      <footer class="footer">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="https://github.com/elizavetaiutina" class="footer__link">GitHub</a>
+          </li>
+          <li class="footer__item">2022</li>
+          <li class="footer__item">
+            <a href="https://rs.school/js/" class="footer__link"
+              ><img
+                src="./images/logo-rsschool.svg"
+                alt="Логотип RS-school"
+                class="footer__logo-rs"
+            /></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </body>
 </html>

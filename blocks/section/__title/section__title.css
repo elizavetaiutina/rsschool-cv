@@ -1,0 +1,9 @@
+.section__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: 0.35em;
+  color: #2000e7;
+  margin: 0 0 20px;
+}
