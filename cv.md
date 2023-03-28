@@ -8,8 +8,6 @@
 
 ### Contact
 
-**Phone:** +7 987 295 03 71
-<br>
 **E-mail:** iutinaelizaveta@yandex.ru
 <br>
 **Telegram:** @lizaiutina
@@ -20,7 +18,7 @@
 
 ### About Myself
 
-I'm a begginer frontend developer. I am currently studying JavaScript. I want to gain knowledge and skills that will be enough for employment in the company.
+I'm a begginer frontend developer from St. Petersburg. I am currently studying JavaScript. I want to gain knowledge and skills that will be enough for employment in the company.
 
 ---
 
